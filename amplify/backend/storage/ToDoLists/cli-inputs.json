@@ -1,0 +1,18 @@
+{
+  "resourceName": "ToDoLists",
+  "tableName": "ToDoLists",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "owner-index",
+      "partitionKey": {
+        "fieldName": "owner",
+        "fieldType": "string"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}

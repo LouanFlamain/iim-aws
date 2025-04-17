@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "region": "eu-west-3",
+  "userPoolId": "eu-west-3_xxxxxxxx",
+  "userName": "louan@example.com",
+  "triggerSource": "PostConfirmation_ConfirmSignUp",
+  "request": {
+    "userAttributes": {
+      "sub": "1234abcd-5678-efgh-ijkl-9876mnopqrst",
+      "email_verified": "true",
+      "email": "louan@example.com"
+    }
+  },
+  "response": {}
+}

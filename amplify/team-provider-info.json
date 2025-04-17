@@ -1,0 +1,63 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsreact-dev-2045c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::027052386154:role/amplify-awsreact-dev-2045c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::027052386154:role/amplify-awsreact-dev-2045c-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-awsreact-dev-2045c-deployment",
+      "UnauthRoleName": "amplify-awsreact-dev-2045c-unauthRole",
+      "StackName": "amplify-awsreact-dev-2045c",
+      "StackId": "arn:aws:cloudformation:eu-west-3:027052386154:stack/amplify-awsreact-dev-2045c/85b77d10-1aab-11f0-9a3d-0afb1d8abe03",
+      "AmplifyAppId": "d3my72grz77my7",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-awsreact-dev-2045c-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-awsreact-dev-2045c-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "awsreactf1d5da12": {}
+      },
+      "storage": {
+        "Users": {},
+        "ToDoLists": {},
+        "profilephotos": {},
+        "toDoValue": {}
+      },
+      "function": {
+        "insertUsers": {
+          "deploymentBucketName": "amplify-awsreact-dev-2045c-deployment",
+          "s3Key": "amplify-builds/insertUsers-74384a5668446a4c5277-build.zip"
+        },
+        "awsreactf1d5da12PostConfirmation": {
+          "deploymentBucketName": "amplify-awsreact-dev-2045c-deployment",
+          "s3Key": "amplify-builds/awsreactf1d5da12PostConfirmation-38493573313151746161-build.zip"
+        },
+        "addList": {
+          "deploymentBucketName": "amplify-awsreact-dev-2045c-deployment",
+          "s3Key": "amplify-builds/addList-4e5a664448396474756b-build.zip"
+        },
+        "getLists": {
+          "deploymentBucketName": "amplify-awsreact-dev-2045c-deployment",
+          "s3Key": "amplify-builds/getLists-4e616b59663577627671-build.zip"
+        },
+        "addToDoValue": {
+          "deploymentBucketName": "amplify-awsreact-dev-2045c-deployment",
+          "s3Key": "amplify-builds/addToDoValue-483479346d744d633349-build.zip"
+        },
+        "getToDoValue": {
+          "deploymentBucketName": "amplify-awsreact-dev-2045c-deployment",
+          "s3Key": "amplify-builds/getToDoValue-796d756b663436734946-build.zip"
+        }
+      },
+      "api": {
+        "api": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3my72grz77my7",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

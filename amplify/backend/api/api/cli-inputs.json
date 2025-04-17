@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "paths": {
+    "/addList": {
+      "name": "/addList",
+      "lambdaFunction": "addList",
+      "permissions": {
+        "setting": "open"
+      },
+      "cors": true
+    },
+    "/getLists": {
+      "name": "/getLists",
+      "lambdaFunction": "getLists",
+      "permissions": {
+        "setting": "private",
+        "auth": ["read"]
+      },
+      "cors": true
+    },
+    "/getTodoValues": {
+      "name": "/getTodoValues",
+      "lambdaFunction": "getToDoValue",
+      "permissions": {
+        "setting": "private",
+        "auth": ["read"]
+      },
+      "cors": true
+    },
+    "/addTodoValues": {
+      "name": "/addTodoValues",
+      "lambdaFunction": "addToDoValue",
+      "permissions": {
+        "setting": "private",
+        "auth": ["create", "read", "update"]
+      },
+      "cors": true
+    }
+  }
+}

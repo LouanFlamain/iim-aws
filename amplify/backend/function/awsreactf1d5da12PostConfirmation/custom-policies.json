@@ -1,0 +1,9 @@
+[
+  {
+    "Effect": "Allow",
+    "Action": ["lambda:InvokeFunction"],
+    "Resource": [
+      "arn:aws:lambda:eu-west-3:027052386154:function:insertUsers-dev"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "name": "aws-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-amplify/api": "^6.3.9",
+    "@aws-amplify/api-rest": "^4.1.2",
+    "@aws-amplify/storage": "^6.8.2",
+    "@aws-amplify/ui-react": "^6.11.0",
+    "@aws-sdk/client-dynamodb": "^3.788.0",
+    "@aws-sdk/client-lambda": "^3.787.0",
+    "@aws-sdk/lib-dynamodb": "^3.789.0",
+    "@tailwindcss/cli": "^4.1.4",
+    "@tailwindcss/vite": "^4.1.4",
+    "aws-amplify": "^6.14.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.5.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend-storage": "^1.2.6",
+    "@eslint/js": "^9.22.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "vite": "^6.3.0"
+  }
+}

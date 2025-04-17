@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "storage": {
+      "ToDoLists": [
+        "create",
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
